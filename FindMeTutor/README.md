@@ -8,5 +8,6 @@
 URL зависит от названия созданной базы данных и значения Port, которое выбиралось при установке, но также его можно посмотреть если перейти в верхнем меню Object>Properties>Connection>Port, там же можно посмотреть username
 5. Вставить на 34 строчку username см п.4
 6. Вставить пароль, используемый при входе в бд вставить на 35 строку
-7. Переменная mailActivation(31 строка) по умолчанию false отвечает за функции отправки временного пароля по почте. Чтобы воспользоваться этой функцией нужно в файле SendEmail.java вставить email почты на 8 строку кода и пароль для приложения на 9 строку. (для gmail подробнее тут https://myaccount.google.com/u/1/apppasswords?rapt=AEjHL4NtbBPOEeZvUWeIPmtdhcy7zsUI6CAU2vES-kpocth8zLgyr2Q6Y3TW2nmTgiv1CQkJiZ3gSbieCC2BQBxZlm_8NpLjqw, Properties заданы также для gmail почты)
-8. Пароли пользователей не записываются напрямую в базе данных, они кодируются в программе. Для кодирования используется ключ, указан в файле MailData. по умолчанию key
+7. Переменная mailActivation(31 строка) по умолчанию false отвечает за функции отправки временного пароля по почте. Чтобы воспользоваться этой функцией нужно в файле SendEmail.java вставить email почты на 8 строку кода и пароль для приложения на 9 строку. (для gmail подробнее [тут](https://myaccount.google.com/u/1/apppasswords?rapt=AEjHL4NtbBPOEeZvUWeIPmtdhcy7zsUI6CAU2vES-kpocth8zLgyr2Q6Y3TW2nmTgiv1CQkJiZ3gSbieCC2BQBxZlm_8NpLjqw), Properties заданы также для gmail почты)
+8. Пароли пользователей не записываются напрямую в базе данных, они кодируются в программе. Для кодирования используется ключ, указан в файле MailData. по умолчанию key.
+![image](https://github.com/afrenika/TelegramBot_for_tutors/assets/114728654/55777002-d8ea-49ee-b5e4-7b75ecbf0e3c)
